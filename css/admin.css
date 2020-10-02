@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Yekan.woff) format("woff"),
+    url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+#panel-wrapper{
+    width: 95%;
+    background: #ffffff;
+    padding: 15px;
+    float: right;
+}
+#panel-wrapper #panel-inner{
+    float: right;
+    width:100%;
+    border: 1px solid rgba(85, 85, 85, 0.18);
+}
+#panel-sidebar{
+
+    width: 25%;
+    float: right;
+    background: #555555;
+    min-height: 1000px;
+}
+#panel-content{
+    width: 74%;
+    float: left;
+    min-height: 1000px;
+
+}
+#panel-sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+#panel-sidebar ul li{
+    width: 100%;
+}
+#panel-sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #D4D4D4;
+    font-family: yekan;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    font-size: 16px;
+    border-bottom: 1px solid #777777;
+}
+#panel-sidebar ul li a:hover{
+    background: #4C4B4B;
+}
+#panel-sidebar ul li a i{}
+
+.panel-frm-row{
+    width: 100%;
+    margin: 10px 0;
+}
+.panel-btn{
+    background: #4C99B7;
+    border: none;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-family: yekan;
+    cursor: pointer;
+}
+.panel-frm-row input[type="text"]{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border-radius: 3px;
+    display: block;
+    margin: 5px;
+}
+.panel-frm-row span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.panel-frm-row:after{
+    clear: both;
+}
+.ltr{
+    text-align: left;
+    direction: ltr;
+}
+.settings-row{
+    text-align: center;
+}
